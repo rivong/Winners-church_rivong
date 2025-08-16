@@ -17,6 +17,11 @@
     <link rel="stylesheet" type="text/css" href="wawidget.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        input:focus {
+            border-color: #A52B2B;
+        }
+    </style>
 </head>
 
 <body data-mobile-nav-style="classic">
@@ -32,128 +37,37 @@
                         <img src="images/logo-green-dark.png" class="mobile-logo" alt="dfgd">
                     </a>
                 </div>
-                <!-- <div class="col-auto col-lg-8 menu-order px-lg-0">
-                    <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-line"></span>
-                        <span class="navbar-toggler-line"></span>
-                        <span class="navbar-toggler-line"></span>
-                        <span class="navbar-toggler-line"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                        <ul class="navbar-nav alt-font">
-                            <li class="nav-item">
-                                <a href="index" class="nav-link">Home</a>
-                                <div class="menu-back-div dropdown-menu megamenu-content" role="menu">
-                                    <div class="d-lg-flex justify-content-center">
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown simple-dropdown">
-                                <a href="#" class="nav-link">About Us</a>
-                                <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown"
-                                    aria-hidden="true"></i>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li class="dropdown">
-                                        <a href="our-bishop">Meet the Presiding Bishop</a>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="resident-pastor">Meet our Resident Pastor</a>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="service-group">Service Groups</a>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="monthly-focus">Monthly Prophetic Focus</a>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="pillars">12 Pillars of this Commission</a>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="wsf">WSF</a>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="testimonies">Testimonies</a>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="announcements">Announcements</a>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="youths">Youths</a>
-                                    </li>
-
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown simple-dropdown">
-                                <a href="#" class="nav-link">Mandate</a>
-                                <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown"
-                                    aria-hidden="true"></i>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li class="dropdown">
-                                        <a href="publishing">Publishing</a>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="wofbi">WOFBI</a>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="church-growth">Church Growth</a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li class="nav-item dropdown simple-dropdown">
-                                <a href="http://pushpay.com/g/winnerschapelintlindianapolis" class="nav-link">Online
-                                    Giving</a>
-                            </li>
-
-                            <li class="nav-item dropdown simple-dropdown">
-                                <a href="javascript:void(0);" class="nav-link">Media Center</a>
-                                <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown"
-                                    aria-hidden="true"></i>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li class="dropdown"><a href="past-services">Past Services</a></li>
-                                    <li class="dropdown"><a
-                                            href="https://drive.google.com/drive/folders/1nxUSfui_4k79Df2Uh4mP4dLdPgMMRu6k?usp=sharing"
-                                            target="_blank">Downloads</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown simple-dropdown">
-                                <a href="contact-us" class="nav-link">Contact Us</a>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div> -->
-    </header>
+               
+            </header>
 
 
     <div class="max-w-lg mx-auto my-5 lg:my-28 bg-white p-8 rounded-xl shadow-sm border border-slate-200">
-        <p class="text-3xl font-medium text-center text-black">Register With <span style="color: brown;">Us</span></p>
+        <p class="text-3xl font-medium text-center text-black">Register With <span style="color: rgb(165, 42, 42)65, 42, 42)65, 42, 42)65, 42, 42)65, 42, 42)65, 42, 42)65, 42, 42)65, 42, 42);">Us</span></p>
         <div id="message" class="my-6 text-base text-center"></div>
         <form action="" class="mt-5 mb-3" id="registerForm">
             <div class="flex flex-col space-y-0">
                 <div>
                     <label for="name" class="font-medium text-slate-700 ">Full Name</label>
                     <input id="name" name="name" type="text" required
-                        class="w-full py-3 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-slate-500 hover:shadow"
+                        class="w-full py-3 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-[#A52B2B] hover:shadow"
                         placeholder="Enter your full name">
                 </div>
                 <div>
                     <label for="email" class="font-medium text-slate-700 pb-2">Email address</label>
                     <input id="email" name="email" type="email" required
-                        class="w-full py-3 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-slate-500 hover:shadow"
+                        class="w-full py-3 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-[#A52B2B] hover:shadow"
                         placeholder="Enter email address">
                 </div>
                 <div>
                     <label for="address" class="font-medium text-slate-700 pb-2">Address</label>
                     <input id="address" name="address" type="text" required
-                        class="w-full py-3 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-slate-500 hover:shadow"
+                        class="w-full py-3 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-[#A52B2B] hover:shadow"
                         placeholder="Enter your address">
                 </div>
                 <div>
                     <label for="phone" class="font-medium text-slate-700 pb-2">Phone Number</label>
                     <input id="phone" name="phone" type="tel" required
-                        class="w-full py-3 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-slate-500 hover:shadow"
+                        class="w-full py-3 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-[#A52B2B] hover:shadow"
                         placeholder="Enter your phone number">
                 </div>
                 <button type="submit" style="background-color: brown;"
@@ -423,10 +337,10 @@
                         }
                     });
                 }
-                ; /* END OF revapi call */
+                ; 
             }
-            ; /* END OF ON LOAD FUNCTION */
-        }()); /* END OF WRAPPING FUNCTION */
+            ; 
+        }()); 
     </script>
 
 
@@ -445,13 +359,11 @@
                 phone: form.phone.value.trim()
             };
 
-            // Basic validation (optional, for extra safety)
             if (!data.name || !data.email || !data.address || !data.phone) {
                 showMessage("All fields are required.", false);
                 return;
             }
 
-            // Send data to backend (change URL as needed)
             try {
                 const res = await fetch('https://backendclass-kzbr.onrender.com/api/members', {
                     method: 'POST',
@@ -463,9 +375,11 @@
                     form.reset();
                 } else {
                     const err = await res.json();
-                    showMessage(err.error || "Error registering. Please try again.", false);
+                    console.log(err);
+                    showMessage(err?.message || "Error registering. Please try again.", false);
                 }
             } catch (error) {
+                console.log(error);
                 showMessage("Network error. Please try again.", false);
             } finally {
                 submitButton.disabled = false;
